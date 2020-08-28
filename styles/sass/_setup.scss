@@ -17,7 +17,8 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 body {
     margin: 0;
     font-size: 62.5%;
-    color: #343a40
+    color: $darkg;
+    background: #FBF5F5;
 }
 
 ul {
