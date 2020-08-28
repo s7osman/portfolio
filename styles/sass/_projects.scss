@@ -1,0 +1,50 @@
+// PROJECT STYLES 
+
+.projectItem {
+    background: $grey;
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+    border-radius: 5%;
+    padding: 20px 20px 40px 15px;
+}
+
+.projImageContainer {
+    width: 100%;
+}
+
+.projectImage {
+    border: 5px solid $darkg;
+    display: block;
+    height: auto;
+}
+
+.projectTwo,
+.projectFour {
+    flex-direction: row-reverse;
+}
+
+.sideInfo {
+    margin-left: 50px; 
+}
+
+.projectDescription {
+    width: 84%;
+}
+
+
+.projectIcons i{
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.projectIcons i:hover {
+    filter: none;
+    animation: none;
+}
+
+.animate__slideInLeft,
+.animate__slideInRight{
+    animation: slideInLeft;
+    animation-duration: 3s; 
+}

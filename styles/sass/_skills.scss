@@ -1,0 +1,32 @@
+// SKILLS STYLES
+
+.skills {
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.skillsTitle {
+    margin-bottom: 80px;
+}
+
+
+.skillsIcons i {
+    font-size: 5rem;
+    color: $darkg;
+    text-align: center;
+}
+
+.skillsIcons i:hover {
+    color: $pinky;     
+}
+
+.skillsIcons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 35px;
+    background: $grey;
+    border-radius: 20px;
+}
+
+

@@ -1,0 +1,181 @@
+// MEDIA QUERIES
+
+@media (max-width: 1020px) {
+
+    .headerScrollText {
+        font-size: 3rem;
+    }
+
+    .projectItem {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .projImageContainer {
+        width: 100%;
+    }
+
+    .sideInfo {
+        text-align: center;
+    }
+
+    .aboutContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutImage {
+        width: 50%;
+    }
+
+    .aboutText {
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .educationContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .educationSquare {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 770px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .navLinks {
+        position: absolute;
+        right: 0;
+        height: 43vh;
+        width: 45%;
+        top: 6vh;
+        background: rgba(249, 239, 240, 0.63);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    
+    .navLinks li {
+        opacity: 0;
+    }
+
+    .hamBurger {
+        display: block;
+        cursor: pointer;
+        font-size: 2rem;
+        color: $darkg;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .skillsIcons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .skillsIcons i {
+        font-size: 4rem;
+    }
+
+    nav {
+        background: transparent;
+    }
+
+    .nav-active {
+        transform: translateX(0%);
+    }
+    
+    .educationSquare {
+        width: 70%;
+    }
+
+    @keyframes navLinkFade {
+        fron {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+}
+
+@media (max-width: 650px) {
+
+    .educationSquare {
+        width: 70%;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    .pinkBtn {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .skillsIcons {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .skillsIcons {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h4 {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    p {
+        font-size: 0.8rem;
+    }
+
+}

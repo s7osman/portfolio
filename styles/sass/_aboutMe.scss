@@ -1,0 +1,50 @@
+// ABOUT ME STYLES
+
+.aboutMe,
+.education,
+.skills,
+.projects,
+.contactMe {
+    margin-top:150px;
+    margin-bottom: 150px;
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-top: 25px
+}
+
+.aboutText {
+    padding-left: 55px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: $grey;
+    border-radius: 10%;
+}
+
+.descriptionContainer {
+    width: 99%;
+}
+
+.aboutIntro {
+    text-align: left;
+}
+
+.aboutDescription {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.aboutImage {
+    margin-right: 95px;
+    width: 100%;
+}
+
+.aboutImage img {
+    box-shadow: 10px 10px $pinky;
+}
+

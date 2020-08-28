@@ -1,0 +1,56 @@
+// CONTACT AND FOOTER STYLES
+
+.contactMe {
+    margin-top: 50px;
+    margin-bottom: 50px;;
+}
+.contactTitle {
+    margin-bottom: 20px;
+}
+
+.calendlyContainer {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactIcons {
+    width: 100%;
+}
+
+.contactIcons a {
+    font-size: 2.2rem;
+    color: $darkg;
+}
+
+.socialImg:hover {
+    filter: drop-shadow(1px 0 5px $pinky);
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    background: $grey;
+    border-radius: 5%;
+}
+
+.contactIcons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+// FOOTER STYLES 
+
+footer {
+    background: $grey;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}

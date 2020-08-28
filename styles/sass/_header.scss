@@ -1,0 +1,98 @@
+// HEADER STYLES
+
+header {
+    /* Thanks to Meiying Ng for sharing their work on Unsplash. */
+    background: url("../images/meiying-ng-OrwkD-iWgqg-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    position: center;
+}
+
+nav {
+    background: linear-gradient(90deg, rgba(255,255,255,0) 33%, rgba(247,222,231,1) 65%);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul { 
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    padding: 15px 0;
+}
+
+li a {
+    @include fontInfo($poppins, 1.2rem, 500);
+    padding: 0 15px;   
+    color: $darkg;
+    letter-spacing: 1.5px;
+}
+
+li a:hover,
+li a:focus {
+    color: $pinky;
+}
+
+.headerText {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.headerTitle {
+    @include fontInfo($poppins, 1.9rem, 400);
+    margin-bottom: 10px;
+    margin-top: 163px;
+    letter-spacing: 2px;
+}
+
+.headerScrollText {
+    @include fontInfo($poppins, 4rem, 800);
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.pinkBtn {
+    background: $pinky;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    @include fontInfo ($poppins, 1rem, 500);
+    line-height: 24px;
+    padding: 5px 8px;
+    letter-spacing: 2.5px;
+}
+
+.pinkBtn:hover {
+    background: $darkg;
+    color: $pinky;
+}
+
+button:hover,
+button:focus {
+    background: $darkg;
+    color: $pinky;
+}
+
+button a:hover,
+button a:focus {
+    background: $darkg;
+    color: $pinky;
+}
+
+.animate__fadeInDown {
+    animation: fadeInDown;
+    animation-duration: 2s;
+}
+
+.hamBurger {
+display: none;
+}
